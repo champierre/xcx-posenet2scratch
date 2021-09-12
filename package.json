@@ -1,0 +1,12 @@
+{
+  "name": "xcx-posenet2scratch",
+  "version": "0.0.0",
+  "private": "true",
+  "scripts": {
+    "register": "npx xcratch-register --link -C --id=posenet2scratch --gui=\"../scratch-gui\"",
+    "build": "npx xcratch-build --module=posenet2scratch --gui=\"../scratch-gui\""
+  },
+  "devDependencies": {
+    "eslint-config-scratch": "^7.0.0"
+  }
+}
